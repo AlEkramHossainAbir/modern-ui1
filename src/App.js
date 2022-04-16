@@ -4,16 +4,23 @@ import Brand from './components/brand/Brand';
 import CTA from './components/cta/CTA';
 import Feature from './components/feature/Feature';
 import Navbar from './components/navbar/Navbar';
+import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers'
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-        <h1>This is Test</h1>
-        <Article title="modern ui ux"/>
-        <Brand />
-        <CTA />
-        <Feature />
+      <div className='gradient_bg '>
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
 
     </div>
   );

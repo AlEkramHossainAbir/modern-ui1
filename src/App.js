@@ -1,5 +1,4 @@
 import React from 'react';
-import Article from './components/article/Article';
 import Brand from './components/brand/Brand';
 import CTA from './components/cta/CTA';
 import Navbar from './components/navbar/Navbar';
